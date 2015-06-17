@@ -1,0 +1,76 @@
+HTML:
+
+Tags:
+
+- <html>: Presente no ínicio da página e fechada no final.
+- <head>: Fornece informações sobre o documento.
+- <body>: Abriga o conteúdo do documento.
+- <title>: Usado dentro do "head", aparece na barra do navegador.
+- <b>: Texto em negrito.
+- <h1...h6>: Cabeçalhos.
+- <p>: Usado para parágrafos.
+- <i>: Usado para itálico.
+- <u>: Usado para sublinhado.
+- <s>: Usado para riscado.
+- <small,big,sub,sup>: Usado para definir o tamanho da letra.
+- <br/>: Quebra de linha.
+- <pre>: Escreve o texto na página da maneira como foi digitado.
+- <hr/>: Defini uma linha no seu navegador.
+- <ul><li>...</li></ul>: Defini uma lista simples.
+- <ol><li>...</li></ol>: Defini uma lista ordenada.
+- Atributos:
+	
+	- <meta name="Author" content="">: Presente no cabeçalho.
+	- <align="center/left/right/justify">: Defini o alinhamento de um parágrafo.
+	- <width="%">: Percentual de ocupação.
+	- <size="">: Tamanho em pixel.
+	- <style="background-color:red">: Altera a cor de fundo.
+	- <a href="url">: Mostra um link para um site específico.
+	- <h1 id="cabeçalho1">: Cria um link para um ponto específico da página.
+	- <a href="#cabeçalho1">: Linka um lugar específico da página.
+ 	- <a href="mailto:endereço de e-mail">: Define um endereço de e-mail para envio.
+
+- Construção de tabelas:
+
+	- <table><tr><td></td></tr></table>: Tr define linha e Td define uma célula.
+	- <table border="1" width="30%">: Defina a borda e o tamanho da tabela.
+	- <td align="right" valign="top">: Define o alinhamento do texto em cada célula.
+
+- Inserindo imagens:
+
+	- <img src="foto.jpg">: Insere a imagem na página.
+
+- Formulários:
+
+	-<form>: Define um formulário.
+	-<form action="url" method="método">: 
+		-Action: Define a url ou e-mail ao qual serão enviados os dados.
+		-Method: Seleciona um método para acessar o url de ação.
+			-Post: Dados de entrada fazem parte da mensagem enviada para o servidor.
+			-Get: Dados de entrada formam uma consulta feita ao servidor.
+	-<form method="POST" action="url">Nome:<input type="text" size="20" name="nome"/></form>: Texto simples de até 20 caracteres.
+	-<form method="POST" action="url">Senha:<input type"password" size="10" name="senha" maxlength="6"/></form>
+	-<form method="POST" action="url">Mensagem:<textarea rows="2" cols="20" name="mensagem"></textarea></form>
+
+- Botões: Usados dentro dos formulários.
+	
+	-<input type="submit" value="enviar">: Submit é usado para enviar.
+	-<input type="reset" value="Limpar">: Reset é usado para limpar o campo.
+
+->Botões de rádio: usuário pode escolher apenas uma alternativa.
+	-<input type="radio" name="sexo" value="masculino" checked="checked">
+	-<input type="radio" name="sexo" value="feminino">
+	- Ambos botões são conectados pelo nome.
+
+->Botões Checkbox: usuário escolhe mais de uma opção:
+	-<input type="checkbox" name="hobbies" value="web">
+	-<input type="checkbox" name="hobbies" value="correr">
+	-<input type="checkbox" name="hobbies" value="nadar">
+
+- Elemento <button>: Mais caracterizável que o input.
+
+	-<button type="submit"><img src="botao.jpg" border="0"></button>: Define uma imagem para o botão.
+
+- Menus com opções: select
+	-<select size="1" name="estado"><option></option><option></option></select>: define um menu selecionável.
+

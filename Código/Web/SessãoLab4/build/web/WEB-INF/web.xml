@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>Content2Servlet</servlet-name>
+        <servlet-class>Content2Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionLoginServlet</servlet-name>
+        <servlet-class>SessionLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Content2Servlet</servlet-name>
+        <url-pattern>/Content2Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SessionLoginServlet</servlet-name>
+        <url-pattern>/SessionLoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Model2Servlet</servlet-name>
+        <servlet-class>Model2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Model2Servlet</servlet-name>
+        <url-pattern>/Model2Servlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>/login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

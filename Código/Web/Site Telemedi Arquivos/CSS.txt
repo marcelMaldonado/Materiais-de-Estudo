@@ -1,0 +1,46 @@
+CSS: Controlar estilos em uma página.
+
+- Sintaxe: seletor {propriedade: valor;}
+- Seletor: Elemento ao qual o estilo será aplicado.
+- Propriedade: Descreve a propriedade do elemento a se aplicar o estilo(ex:background-color)
+- Valor: Valor dado ao atributo de estilo a ser alterado.
+- Aplicando a folha de estilo:
+	- Cria-se um link dentro de cada página para a folha de estilo.
+	- Link deve estar dentro das tags <head></head>.
+	- <link rel="stylesheet" type="text/css" href="style.css"/>
+
+- Propriedade background-image: usada para definir uma imagem de fundo, aplica-se ao elemento body.
+	-body{backgorund-image: url("url de origem da imagem")}
+	-background-repeat: controla a repetição da imagem, definindo no-repeat ela não se repete.
+	-background-attachment: define se a imagem e fixa ou não, fixed para fixa e scroll para rolar.
+	-background-position: define a posição da imagem na tela, por default a imagem e inserida no topo a esquerda.
+	-background-position: 2cm 2cm, a partir da esquerda e do topo
+	-background-position: 50% 25%,centrada na horizontal e 1/4 para baixo
+	-background-position: top right, no canto superior
+	-background:color image repeat attachment position
+
+- Propriedades de fonte:
+	
+	- Famílias de fontes: arial, times new roman, verdana.
+	- Famílias de fontes genéricas: serif, sans-serif, monospace.
+	- font-style: define normal, italic ou oblique. 
+	- font-weight: define bold.
+	- font-size: 30px ou 12pt ou 120%.
+	- h1{font-family: arial, verdana, sans-serif; font-style: italic; font-weight:bold;}
+	- font: italic bold 30px arial, sans-serif;
+
+- Propriedades de texto:
+	
+	- text-indent: 30px; aplica um recuo a primeira linha do texto.
+	- text-align: define o alinhamento do texto.
+	- text-decoration: underline ou overline ou line-through.
+	- letter-spacing: 6px; define o espaço entre as letras.
+	- text-transform: capitalize ou uppercase ou lowercase ou none.
+
+- Propriedades de link:
+	
+	- a:link{color:green;}: links não visitados são verdes.
+	- a:visited{color:yellow;}: links visitados são amarelos.
+	- a:hover{color:red;}: links com o foco do cursor ficam vermelhos.
+
+

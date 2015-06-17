@@ -1,0 +1,54 @@
+<HTML>
+<head>
+<title>Calculadora</title>
+<script>
+<!--
+function Conta(operacao)
+{
+	with (document.calculo){
+           n1 = parseInt(txtUm.value);
+           n2 = parseInt(txtDois.value);
+        } 
+	switch(operacao){
+	   case 0:
+		tot = n1 + n2;
+		break;
+	   case 1:
+		tot = n1 - n2;
+		break;
+           case 2:
+		tot = n1 * n2;
+		break;
+	   case 3:
+		tot = n1 / n2;
+		break;
+	}
+	document.calculo.txtTotal.value = tot;
+}
+
+
+
+	nome = prompt("Digite seu nome ");
+	document.write ("<h1>Bem-vindo, " + nome + "</h1>");
+	document.calculo.txtUm.Focus();
+//-->
+</script>
+</head>
+
+<body bgcolor="red">
+<form name="calculo">
+<table border="1" bgcolor="black">
+
+<tr><td><font color="white"><i><b>Numero 1</td><td><input type=Text name="txtUm"></td></tr>
+<tr><td><font color="white"><i><b>Numero 2</td><td><input type=Text name="txtDois"></td></tr>
+<tr><td colspan=2>
+        <input type=Button name="cmdMais" onClick="Conta(0)" value="+">
+	<input type=Button name="cmdMenos" onClick="Conta(1)" value="-">
+	<input type=Button name="cmdVezes" onClick="Conta(2)" value="*">
+	<input type=Button name="cmdDivide" onClick="Conta(3)" value="/"></td></tr>
+<tr><td><font color="white"><i><b>Total</td><td><input type=Text name="txtTotal"></td></tr>
+</font>
+</table>
+</form>
+</body>
+</HTML>

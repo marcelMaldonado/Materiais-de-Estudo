@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+    <display-name>display-name</display-name>
+    <description>
+        This is a simple web application with a source code organization
+        based on the recommendations of the Application Developer's Guide.
+    </description>
+
+    <servlet>
+        <servlet-name>Servlet-name</servlet-name>
+        <servlet-class>DatabaseAccess</servlet-class>
+		
+        <init-param>
+            <param-name>user</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>pass</param-name>
+            <param-value>System</param-value>
+        </init-param>
+        <init-param>
+            <param-name>db_name</param-name>
+            <param-value>pgmc</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Servlet-name</servlet-name>
+        <url-pattern>/db</url-pattern>
+    </servlet-mapping>
+
+</web-app>

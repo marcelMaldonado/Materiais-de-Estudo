@@ -1,0 +1,223 @@
+#fundo{	
+	background-color:white;	
+}
+#centro{
+	width:1100px;
+	background-color:white;
+	margin:0px auto;
+	text-align:justify;
+}
+.cabecalho {		
+	background-color:white;
+	background-image: url(logo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0,5cm 0,5cm;	
+	width:1100px;
+	height:150px;
+}
+#frase{
+	font-weight:bold;
+	font-size:160%;
+	padding-left:150px;
+	color:blue;
+	font-family:Optima, Arial, Helvetica, sans-serif;
+}
+.cabecalho p{
+	color:#0000A0;
+	text-align:justify;
+	padding-left:950px;
+	padding-top:150px;
+	font-size:140%;
+	font-weight:bold;
+}
+.principal{
+	width:1100px;
+	margin:0 auto;
+	font-family:Optima, Arial, Helvetica, sans-serif;	
+	background-color:white;	
+	color:#808080;
+}
+.texto{
+	width:1100px;	
+	margin-right:0 auto;
+	height:200px;
+	font-family:Optima, Arial, Helvetica, sans-serif;	
+	background-color:white;
+	color:#808080;
+	
+}
+.texto2{
+	width:1100px;	
+	margin:0 auto;
+	height:250px;
+	font-family:Optima, Arial, Helvetica, sans-serif;	
+	background-color:white;
+	color:#808080;
+}
+.texto3{
+	width:1100px;	
+	margin:0 auto;
+	height:130px;
+	font-family:Optima, Arial, Helvetica, sans-serif;	
+	background-color:white;
+	color:#808080;
+}
+.texto4{
+	width:1100px;	
+	margin-right:0 auto;
+	height:200px;
+	font-family:Optima, Arial, Helvetica, sans-serif;	
+	background-color:white;
+	color:#808080;
+}
+.texto4 p{
+	margin-right:310px;
+}
+.rodape {
+	height:210px;	
+	width:1100px;
+	margin:0px auto;
+	background-color:#E9E9E9;	
+	color:black;
+	text-align:center;
+	font-size:100%;
+	font-weight:bold;
+}
+.rodape p {		
+	color:black;
+	text-align:center;
+	font-size:120%;
+	font-weight:bold;
+	font-family:Optima, Arial, Helvetica, sans-serif;
+}
+a {
+	font-family:Optima, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:black;
+	font-weight:bolder;
+}
+a:visited{
+	color:;
+}
+a:hover {
+	text-decoration: underline;
+	color:blue;
+	font-style:italic
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:120%;	
+	font-weight: bold;
+	font-style:italic;
+	color:#0000A0;
+}
+#imagem1{	
+	float: left;
+	width:300px;
+}
+#imagem2{	
+	float: left;
+	width:300px;
+}
+#imagemServicos{
+	float:right;
+	width:300px;	
+}
+#imagemEmpresa{
+	
+padding-top:20px;
+	float:right;
+	width:300px;	
+}
+#imagemContato{
+	padding-top:20px;
+	float:right;
+	width:300px;
+}
+.coluna {	
+	float:left;
+	width:20%;
+}
+.coluna1 {	
+	float:right;
+	padding-top:100px;
+	width:10%;
+}
+.contato{
+	width:1100px;	
+	margin:0 auto;
+	height:400px;
+	font-family:Optima, Arial, Helvetica, sans-serif;	
+	background-color:white;
+	color:#808080;
+}
+.linhaContato{
+	width:1100px;	
+	height:40px;		
+	background-color:#0000A0;	
+	text-align:right;	
+}
+.linhaContato a{
+	font-family:Optima, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:white;
+	font-size:130%;		
+}
+.linhaContato a:hover {
+	text-decoration: underline;
+	color:blue;
+	font-style:italic;
+}
+
+#textoContato {
+	padding:8px;
+}
+
+#imagemTel{
+	float:right;
+}#area{
+	widht=300px;
+	height=300px;
+}
+#area #formulario{
+	position:absolute;
+	display:block;
+}
+#formulario label{
+	position:absolute;
+	left:19px;
+	margin-right:5px;
+}
+#formulario input.nome{
+	width:400px;
+	height:35px;	
+}
+#formulario input.e-mail{
+	width:400px;
+	height:35px;
+	margin-top:5px;
+}
+#formulario input.ddd{
+	width:80px;
+	height:35px;
+	margin-top:5px;
+}
+#formulario input.telefone{
+	width:310px;
+	height:35px;
+	margin-top:5px;
+	margin-left:6px;
+}
+#formulario textarea{
+	width:400px;
+	height:80px;
+	margin-top:5px;
+	resize:none;
+}
+#formulario input.enviar{
+	margin-top:2px;
+	border-style:dashed;
+	width:90px;
+	height:30px;
+	margin-left:310px;
+}
