@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1395788496 source:c:\users\manso\documents\arquivos\linguagens de programação\video aulas\c\códigos\ordenacao\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1395789153 source:c:\users\manso\documents\arquivos\linguagens de programação\video aulas\c\códigos\ordenacao\bibliotecaordenacao.c
+	"bibliotecaOrdenaca.h"
+
+1395788626 c:\users\manso\documents\arquivos\linguagens de programação\video aulas\c\códigos\ordenacao\bibliotecaordenaca.h
+
