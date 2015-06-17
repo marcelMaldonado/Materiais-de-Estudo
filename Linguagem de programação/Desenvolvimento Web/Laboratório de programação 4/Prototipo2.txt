@@ -1,0 +1,6 @@
+Protótipo 2 Lab 4:
+
+1- Filtro
+6- Inicialização de javabean
+7- Front-end-Framework
+8- Banner (no menu, com propaganda do WAF do seu trabalho 13)
